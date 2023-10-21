@@ -1,10 +1,14 @@
-# DATA-CLEANING-BIKESALES
-Here is my first project as a data analyst, and this was done using Microsoft Excel. The source of the dataset is through Data Analytics Essential by CISCO.
-The dataset consists of 19 columns:
+## INTRODUCTION: 
+The dataset is about a bike sales data of an XYZ company. The source of the dataset is from Data Analytics Essential by CISCO. As a data analyst, it is very important to go through the step of cleaning your data.
+Data is always messy; therefore, it is very important to clean your data before any form of analysis or visualization is done, in order to have accurate results and make better insights/decisions for stakeholder.
+
+Note: Every business needs this in order to make better decisions.
+
+This dataset consists of 19 columns:
+
 ![](Uncleaned_Dataset.png)
 ## DATA CLEANING PROCESS
-Data is always messy, therefore it is very important to clean your data before any form of analysis or visualization is done, in order to have accurate results and make better insights/decisions for stakeholder.
-Note: Every business needs this in order to make better decisions.
+Here are the various steps I took to clean the data;
 
 **Fixing and Removing Duplicates**: I found duplicates in Column A _**Sales_Order#**_ cells A2 and A3, cells A8 and A9. I reviewed the _**Sales_Order#**_ carefully. It appears that the _**Sales_Order#**_ of 000261695 was incorrectly entered into cell A3. The duplicate entry in cell A3, Sales Order# was changed to 000261696. For duplicate rows 8 and 9, one of the rows was removed/deleted.
 
