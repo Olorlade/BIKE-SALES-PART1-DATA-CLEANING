@@ -18,7 +18,9 @@ Here are the various steps I took to clean the data;
 ![](BLANK.png)
 **Data Parsing from Text to Columns**: I splitted the column _**Product_Description**_ into two columns, _**Colour**_ and _**Size**_ respectively, using Text to Columns. Thereby changing the column name _**Product_Description**_ to _**Model**_.
 
-![](Data_Parsing.png) |![](Data_Parsing2.png)
+   Table1            | Table2
+:-------------------:|:------------------:
+![](Data_Parsing.png)|![](Data_Parsing2.png)
 
 **Removing Extra Spaces**: I used the TRIM function in column J to remove excess spaces and tab spaces in Excel worksheet cells.
 **Spell Check**: I used spell check from the Review tool bar, column D, cell D18 is spelt as Decmber 
